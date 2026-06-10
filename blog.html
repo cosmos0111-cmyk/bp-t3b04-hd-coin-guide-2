@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <title>홍대 코인노래방 가이드 | bro의 찐 후기 & 꿀팁</title>
+    <meta name="description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지. bro의 리얼한 코노 가이드. 전화 010-6279-0862">
+    <meta name="keywords" content="홍대 코인노래방, 홍대 코노, 홍대 노래방, 코인노래방 추천, 홍대 코인노래방 가격, 홍대 혼코노, 홍대코노">
+    <link rel="canonical" href="https://t3b04-hd-coin-guide-2.vercel.app/">
+    <meta property="og:title" content="홍대 코인노래방 가이드 - 발로 찾은 찐 맛집">
+    <meta property="og:description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지. bro의 리얼한 코노 가이드.">
+    <meta property="og:url" content="https://t3b04-hd-coin-guide-2.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://t3b04-hd-coin-guide-2.vercel.app/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="홍대 코인노래방 가이드 - bro의 찐 후기">
+    <meta name="twitter:description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지.">
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; font-size: 100%; }
+        body { 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            background: #f5f0e8; 
+            color: #1a1a1a; 
+            line-height: 1.5; 
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* BRUTALIST GRID — full bleed, dense */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* TYPOGRAPHY — raw & oversized */
+        h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.01em; }
+        h1 { font-size: clamp(2.5rem, 8vw, 4rem); margin-bottom: 1rem; }
+        h2 { font-size: clamp(1.8rem, 5vw, 2.5rem); margin-bottom: 0.75rem; border-left: 6px solid #facc15; padding-left: 0.75rem; }
+        h3 { font-size: clamp(1.3rem, 3vw, 1.8rem); margin-bottom: 0.5rem; }
+        p, li, .text-block { font-size: clamp(1rem, 2vw, 1.125rem); margin-bottom: 1.25rem; }
+        a { color: #1a1a1a; text-decoration: underline wavy #facc15 2px; text-underline-offset: 4px; }
+        a:hover { background: #facc15; color: #1a1a1a; text-decoration: none; }
+        .highlight { background: #facc15; padding: 0.2em 0.4em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; border: 2px solid #1a1a1a; }
+
+        /* NAV */
+        nav { 
+            background: #1a1a1a; 
+            color: #f5f0e8; 
+            padding: 1rem 0; 
+            border-bottom: 6px solid #facc15; 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000;
+        }
+        .nav-inner { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            flex-wrap: wrap;
+        }
+        .nav-logo { 
+            font-size: 1.5rem; 
+            font-weight: 900; 
+            text-transform: uppercase; 
+            letter-spacing: 0.05em; 
+            color: #facc15; 
+            text-decoration: none;
+        }
+        .nav-links { 
+            list-style: none; 
+            display: flex; 
+            gap: 2rem; 
+            font-weight: 700; 
+            text-transform: uppercase; 
+        }
+        .nav-links a { 
+            color: #f5f0e8; 
+            text-decoration: none; 
+            border-bottom: 2px solid transparent; 
+            transition: border-color 0.2s; 
+        }
+        .nav-links a:hover { 
+            border-bottom-color: #facc15; 
+            background: transparent; 
+        }
+        .hamburger { 
+            display: none; 
+            flex-direction: column; 
+            gap: 5px; 
+            cursor: pointer; 
+            background: none; 
+            border: none; 
+            padding: 0.5rem;
+        }
+        .hamburger span { 
+            display: block; 
+            width: 28px; 
+            height: 4px; 
+            background: #f5f0e8; 
+            border-radius: 2px; 
+        }
+
+        /* RESPONSIVE 768 */
+        @media (max-width: 768px) {
+            .nav-links { 
+                display: none; 
+                flex-direction: column; 
+                width: 100%; 
+                gap: 0.5rem; 
+                padding: 1rem 0; 
+                background: #1a1a1a; 
+                border-top: 2px solid #facc15; 
+            }
+            .nav-links.active { display: flex; }
+            .hamburger { display: flex; }
+        }
+
+        /* SECTION */
+        .section { 
+            padding: 3rem 0; 
+            border-bottom: 4px solid #1a1a1a; 
+        }
+        .section:last-child { border-bottom: none; }
+
+        /* CARD */
+        .card { 
+            background: #ffffff; 
+            border: 4px solid #1a1a1a; 
+            padding: 1.5rem; 
+            margin-bottom: 2rem; 
+            box-shadow: 8px 8px 0px #1a1a1a; 
+            transition: box-shadow 0.2s, transform 0.2s; 
+        }
+        .card:hover { 
+            box-shadow: 12px 12px 0px #1a1a1a; 
+            transform: translate(-4px, -4px); 
+        }
+        .card-content { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 1rem; 
+        }
+
+        /* FAQ */
+        .faq-item { 
+            border: 2px solid #1a1a1a; 
+            padding: 1rem; 
+            margin-bottom: 1rem; 
+            background: #ffffff; 
+        }
+        .faq-item summary { 
+            font-weight: 700; 
+            cursor: pointer; 
+            list-style: '▶ '; 
+            padding: 0.5rem 0; 
+            font-size: 1.1rem; 
+        }
+        .faq-item[open] summary { list-style: '▼ '; }
+
+        /* FOOTER */
+        footer { 
+            background: #1a1a1a; 
+            color: #f5f0e8; 
+            padding: 2rem 0; 
+            text-align: center; 
+            border-top: 6px solid #facc15; 
+            margin-top: 3rem;
+        }
+        footer a { color: #facc15; }
+        .tel-link { 
+            color: #facc15; 
+            font-weight: 700; 
+            font-size: 1.2rem; 
+            text-decoration: none; 
+            border: 2px solid #facc15; 
+            padding: 0.3rem 1rem; 
+            display: inline-block; 
+            margin-top: 0.5rem; 
+        }
+        .tel-link:hover { background: #facc15; color: #1a1a1a; }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+    <div class="container nav-inner">
+        <a href="/" class="nav-logo">🎤 BRO.KOREA</a>
+        <button class="hamburger" aria-label="메뉴 열기" onclick="this.parentElement.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="/">홈</a></li>
+            <li><a href="/guide">가이드</a></li>
+            <li><a href="/blog" class="active">블로그</a></li>
+            <li><a href="tel:01062790862">전화문의</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- MAIN BLOG POST -->
+<main class="container" style="padding-top: 2rem;">
+    <article class="section">
+        <h1>홍대 코인노래방,<br>진짜 찐은 여기야</h1>
+        <p class="text-block">
+            <span class="highlight">2025.04 업데이트</span> — 내가 직접 돌아다니며 15군데 찍어봤다. 가격, 시설, 분위기, 꿀팁까지 다 푼다. 혼코노, 단체, 데이트… 용도별로 딱 맞는 곳 골라봐 bro.
+        </p>
+
+        <div class="card">
+            <div class="card-content">
+                <h2>🎯 스타트: 가격 비교표</h2>
+                <p>요즘 홍대 코노 평균가는 <strong>1곡 150~250원</strong> 정도. 예전보다 좀 올랐는데, 그래도 노래방보다 훨씬 싸. 주요 업소별 가격을 찍어왔어:</p>
+                <ul>
+                    <li><strong>노래하는 호랑이 (정문 근처)</strong> — 1곡 180원, 30분 3,000원. 시설 깔끔, 일본곡 많음.</li>
+                    <li><strong>코인코인 (클럽 사이드)</strong> — 1곡 150원 (가장 저렴). 단, 기기 오래됨. 새벽에 가면 에어컨 빵빵.</li>
+                    <li><strong>소울코노 (상수쪽)</strong> — 1곡 200원. 대신 무료 코인 이벤트 자주 함. 앱 설치하면 30분 무료.</li>
+                    <li><strong>루나코인 (걷고 또 걷다 발견)</strong> — 1곡 170원. 방이 엄청 넓음. 4인이서 가도 좁지 않음.</li>
+                </ul>
+                <p class="highlight" style="display: inline-block; margin-top: 0.5rem;">💡 팁: 오후 5시 전엔 더 저렴한 곳도 있으니 시간 맞춰 가보셈.</p>
+            </div>
+        </div>
+
+        <h2>👀 bro의 생생 후기</h2>
+        <p>홍대입구역 3번 출구로 나와서 메인 스트리트 따라 걷다 보면 코노가 줄줄이야. 그중에서 내가 진짜 가봤고, 사진도 찍어온 곳들만 소개할게.</p>
+        
+        <div class="card">
+            <div class="card-content">
+                <h3>1. 노래하는 호랑이 — 🏆 종합 1위</h3>
+                <p>위치: 홍익대학교 정문 쪽 골목. 간판이 호랑이 캐릭터라 눈에 띔. 방이 10개 정도인데 모두 방음 완벽. 리모컨에 <strong>‘마이크 에코’</strong> 버튼이 따로 있어서 보컬 연습하기 좋음. 단점은 화장실이 1개뿐이라 가끔 줄. 하지만 청결도는 여기가 최고였음.</p>
+                <p><span class="highlight">혼코노 강추</span> — 1인 부스도 있고, 심지어 거울 큰 방 있어서 셀프 영상 찍기도 좋아.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>2. 코인코인 — 🤑 가성비 끝판왕</h3>
+                <p>위치: 클럽 거리 안쪽. 건물 2층. 계단에서부터 음악 소리 들림. 시설은 좀 올드한데, 가격이 진짜 싸. 30분에 2,500원? 여기는 가능함. 친구들이랑 양주 한잔 하고 가면 분위기 잘 맞음. <strong>단, 기기 터치 반응이 느리니 침착하게 누르셈.</strong></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h3>3. 소울코노 — 🆓 무료 코인 이벤트 대박</h3>
+                <p>위치: 상수역 쪽 5분 거리. 요즘 핫플. 입구에 ‘앱 설치 시 30분 무료’ 안내 큼지막함. 나도 설치해서 30분 공짜로 놀았음. 방마다 블루투스 스피커 있어서 내 폰으로 바로 재생 가능. 일본곡, 팝송이 특히 많음. <span class="highlight">데이트 코스로 추천</span> — 분위기 좋고 직원분들도 친절.</p>
+            </div>
+        </div>
+
+        <h2>🧠 초보를 위한 꿀팁 5</h2>
+        <ul>
+            <li><span class
+</body>
+</html>
