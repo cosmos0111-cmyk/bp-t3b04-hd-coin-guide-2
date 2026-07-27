@@ -1,627 +1,96 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <title>홍대 코인노래방 가이드 - 발로 찾은 찐 맛집</title>
-    <meta name="description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지. bro의 리얼한 코노 가이드. 전화 010-6279-0862">
-    <meta name="keywords" content="홍대 코인노래방, 홍대 코노, 홍대 노래방, 코인노래방 추천, 홍대 코인노래방 가격, 홍대 혼코노, 홍대코노">
-    <link rel="canonical" href="https://hongdae-song-note.node-link.shop/">
-    <meta property="og:title" content="홍대 코인노래방 가이드 - 발로 찾은 찐 맛집">
-    <meta property="og:description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지. bro의 리얼한 코노 가이드.">
-    <meta property="og:url" content="https://hongdae-song-note.node-link.shop/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="홍대 코인노래방 가이드 - 발로 찾은 찐 맛집">
-    <meta name="twitter:description" content="홍대 코인노래방 어디가 좋을까? 직접 돌아다니며 찍은 후기, 가격, 팁까지. bro의 리얼한 코노 가이드.">
-    <script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "홍대 코인노래방 가이드",
-  "description": "홍대 코인노래방 정보 및 추천 사이트",
-  "url": "https://hongdae-song-note.node-link.shop/",
-  "telephone": "010-6279-0862",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "서울",
-    "addressRegion": "마포구",
-    "addressCountry": "KR"
-  },
-  "areaServed": "홍대입구역 인근",
-  "priceRange": "₩₩"
-}</script>
-    <style>
-        /* RESET & BASE */
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        html { font-size: 100%; scroll-behavior: smooth; }
-        body {
-            font-family: 'Courier New', Courier, 'Consolas', 'Liberation Mono', monospace;
-            background: #111111;
-            color: #e0e0e0;
-            line-height: 1.4;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* BRUTALIST GRID — full bleed, dense */
-        .container {
-            max-width: 100%;
-            padding: 0 24px;
-            margin: 0 auto;
-        }
-
-        /* TYPOGRAPHY — raw & oversized */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            word-break: break-word;
-        }
-        h1 {
-            font-size: clamp(3rem, 12vw, 5.5rem);
-            line-height: 0.9;
-            color: #ffff00;
-            text-shadow: 4px 4px 0 #00ff41;
-            margin-bottom: 8px;
-        }
-        h2 {
-            font-size: clamp(2rem, 7vw, 3.2rem);
-            color: #00ff41;
-            border-left: 6px solid #ffff00;
-            padding-left: 12px;
-            margin-bottom: 24px;
-            transform: skewX(-3deg);
-        }
-        h3 {
-            font-size: 1.6rem;
-            color: #ffff00;
-            margin-bottom: 8px;
-        }
-        p, li, .text-block {
-            font-size: 1rem;
-            line-height: 1.5;
-            margin-bottom: 12px;
-        }
-        a {
-            color: #00ff41;
-            text-decoration: underline wavy 2px;
-            text-underline-offset: 4px;
-            transition: color 0.1s;
-        }
-        a:hover { color: #ffff00; }
-        .highlight {
-            background: #ffff00;
-            color: #111111;
-            padding: 0 4px;
-            font-weight: bold;
-        }
-
-        /* BUTTONS — chunky brutal */
-        .btn {
-            display: inline-block;
-            background: #111111;
-            color: #00ff41;
-            border: 4px solid #00ff41;
-            padding: 12px 24px;
-            font-family: inherit;
-            font-size: 1.2rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            cursor: pointer;
-            transition: 0.05s linear;
-            text-decoration: none;
-            transform: rotate(-1deg);
-        }
-        .btn:hover {
-            background: #00ff41;
-            color: #111111;
-            transform: rotate(1deg) scale(1.02);
-            border-color: #ffff00;
-        }
-
-        /* BRUTAL BORDERS & SKEW */
-        .brutal-border {
-            border: 4px solid #ffff00;
-            padding: 16px;
-            background: #1e1e1e;
-            transform: skewX(-1deg);
-        }
-        .brutal-border-inside {
-            border: 3px solid #00ff41;
-            background: #111111;
-            padding: 12px;
-            transform: skewX(1deg);
-        }
-
-        /* HEADER */
-        header {
-            background: #111111;
-            border-bottom: 6px solid #ffff00;
-            padding: 16px 0;
-            position: relative;
-            z-index: 100;
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-        .logo {
-            font-size: 1.8rem;
-            color: #ffff00;
-            font-weight: bold;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-            text-decoration: none;
-            border: 3px solid #00ff41;
-            padding: 4px 12px;
-            transform: rotate(-2deg);
-            background: #111;
-            line-height: 1;
-        }
-        .logo:hover { background: #00ff41; color: #111; }
-
-        /* NAV — hamburger */
-        .nav-toggle { display: none; }
-        .nav-toggle-label {
-            display: none;
-            font-size: 2.4rem;
-            color: #ffff00;
-            cursor: pointer;
-            padding: 4px 12px;
-            border: 3px solid #ffff00;
-            background: #111;
-            line-height: 1;
-            user-select: none;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 24px;
-            align-items: center;
-        }
-        nav a {
-            font-size: 1.1rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            text-decoration: none;
-            color: #e0e0e0;
-            border-bottom: 3px solid transparent;
-            padding-bottom: 4px;
-            transition: 0.1s;
-        }
-        nav a:hover { color: #ffff00; border-bottom-color: #00ff41; }
-        .call-now {
-            background: #00ff41;
-            color: #111 !important;
-            padding: 8px 16px;
-            border: 3px solid #ffff00;
-            font-weight: bold;
-            transform: rotate(1deg);
-        }
-        .call-now:hover { background: #ffff00; border-color: #00ff41; transform: rotate(-1deg); }
-
-        /* HERO */
-        .hero {
-            padding: 48px 0 40px;
-            position: relative;
-            background: #111;
-            border-bottom: 6px solid #00ff41;
-            overflow: hidden;
-        }
-        .hero::after {
-            content: '';
-            position: absolute;
-            top: -20px; right: -20px;
-            width: 200px; height: 200px;
-            background: repeating-linear-gradient(45deg, #ffff00 0px, #ffff00 8px, #111111 8px, #111111 16px);
-            border: 4px solid #00ff41;
-            transform: rotate(10deg);
-            opacity: 0.5;
-            pointer-events: none;
-        }
-        .hero-content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 32px;
-            align-items: center;
-        }
-        .hero-text { flex: 2 1 300px; }
-        .hero-visual {
-            flex: 1 1 220px;
-            background: #1e1e1e;
-            border: 4px solid #ffff00;
-            padding: 20px;
-            text-align: center;
-            transform: rotate(2deg);
-            position: relative;
-        }
-        .hero-visual .emoji-big {
-            font-size: 5rem;
-            display: block;
-            line-height: 1;
-            margin-bottom: 8px;
-            filter: drop-shadow(4px 4px 0 #00ff41);
-        }
-        .hero-visual .caption {
-            font-size: 0.9rem;
-            color: #ffff00;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        /* SECTION */
-        section {
-            padding: 40px 0;
-            border-bottom: 4px solid #00ff41;
-        }
-        section:last-of-type { border-bottom: none; }
-
-        /* GRID & ASYMMETRIC */
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
-        }
-        .grid-3 {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 20px;
-        }
-        .negative-margin {
-            margin-left: -24px;
-            margin-right: -24px;
-            padding-left: 24px;
-            padding-right: 24px;
-            background: #1a1a1a;
-            border-top: 6px solid #ffff00;
-            border-bottom: 6px solid #00ff41;
-        }
-
-        /* UGC REVIEW CARDS */
-        .review-card {
-            background: #1e1e1e;
-            border: 4px solid #ffff00;
-            padding: 20px;
-            transform: rotate(-0.5deg);
-            transition: 0.1s;
-            position: relative;
-        }
-        .review-card:nth-child(2n) { transform: rotate(0.5deg) translateY(6px); }
-        .review-card:hover { border-color: #00ff41; transform: scale(1.01) rotate(0deg); }
-        .review-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.85rem;
-            color: #aaa;
-            border-bottom: 2px dashed #00ff41;
-            padding-bottom: 6px;
-            margin-bottom: 10px;
-        }
-        .review-nick {
-            font-weight: bold;
-            color: #ffff00;
-        }
-        .review-stars {
-            color: #00ff41;
-            letter-spacing: 2px;
-            font-size: 1.1rem;
-        }
-        .review-text {
-            font-style: italic;
-            line-height: 1.5;
-        }
-
-        /* TIPS / BADGES */
-        .tip-badge {
-            display: inline-block;
-            background: #ffff00;
-            color: #111;
-            font-weight: bold;
-            padding: 4px 12px;
-            border: 3px solid #00ff41;
-            transform: skewX(-5deg);
-            margin-right: 6px;
-            margin-bottom: 6px;
-        }
-
-        /* FOOTER */
-        footer {
-            border-top: 8px solid #ffff00;
-            background: #0d0d0d;
-            padding: 32px 0 16px;
-            margin-top: auto;
-            text-align: center;
-        }
-        footer p { font-size: 0.9rem; color: #888; }
-        footer a { color: #00ff41; }
-
-        /* MOBILE (<768) */
-        @media (max-width: 768px) {
-            .container { padding: 0 16px; }
-            .nav-toggle-label { display: block; }
-            nav ul {
-                display: none;
-                flex-direction: column;
-                background: #111;
-                border: 4px solid #00ff41;
-                padding: 20px;
-                gap: 16px;
-                margin-top: 12px;
-                width: 100%;
-            }
-            .nav-toggle:checked + .nav-toggle-label + nav ul { display: flex; }
-            .grid-2, .grid-3 { grid-template-columns: 1fr; gap: 20px; }
-            h1 { font-size: 2.8rem; }
-            .hero-visual .emoji-big { font-size: 3.5rem; }
-            .negative-margin { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
-            .review-card:nth-child(2n) { transform: none; }
-        }
-
-        /* UTILITIES */
-        .text-center { text-align: center; }
-        .mt-2 { margin-top: 20px; }
-        .mb-1 { margin-bottom: 12px; }
-        .flex-wrap { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
-        .gap-16 { gap: 16px; }
-        .inline-block { display: inline-block; }
-        .skew { transform: skewX(-2deg); }
-        .overflow-hidden { overflow: hidden; }
-
-        /* decorative stripes */
-        .stripe-bg {
-            background: repeating-linear-gradient(90deg, #ffff00 0px, #ffff00 4px, #111111 4px, #111111 12px);
-            height: 12px;
-            width: 100%;
-            border-top: 3px solid #00ff41;
-            border-bottom: 3px solid #00ff41;
-        }
-        /* fake image by css */
-        .fake-img {
-            background: #00ff41;
-            background-image: repeating-linear-gradient(45deg, #111 0px, #111 4px, #00ff41 4px, #00ff41 8px);
-            border: 4px solid #ffff00;
-            height: 140px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: #111;
-            font-weight: bold;
-            transform: skewX(-2deg);
-        }
-    </style>
-  <meta name="msvalidate.01" content="3B4AA8395622C8C3F9C2868412D3A8C9">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <title>홍대 코인노래방 가이드 — 홈</title>
+  <meta name="description" content="홍대 코인노래방을 언제, 어느 인원에 맞춰 이용할지 빠르게 판단할 수 있는 가이드. 사전 확인 사항과 상황별 적합 조건을 제시합니다.">
+  <meta name="keywords" content="홍대 코인노래방, 코인노래방 이용 팁, 홍대 노래방 선택, 시간대별 노래방">
+  <link rel="canonical" href="https://hongdae-song-note.node-link.shop/">
+  <meta property="og:title" content="홍대 코인노래방 가이드 — 시점 별 선택과 활용 팁">
+  <meta property="og:description" content="홍대 코인노래방을 언제, 어느 인원에 맞춰 이용할지 빠르게 판단할 수 있는 가이드.">
+  <meta property="og:url" content="https://hongdae-song-note.node-link.shop/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://hongdae-song-note.node-link.shop/og-image.jpg">
 </head>
-<body>
+<body class="container">
+  <header class="k-head-s2o5">
+    <nav class="r-top-k0mo">
+      <a href="/">홈</a>
+      <a href="/guide">가이드</a>
+      <a href="/tips">활용 팁</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">연락처</a>
+      <div class="hamburger-menu"></div>
+    </nav>
+  </header>
 
-<header>
-    <div class="container header-inner">
-        <a href="/" class="logo">🎤 홍대코노</a>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">☰</label>
-        <nav>
-            <ul>
-                <li><a href="#review">리뷰</a></li>
-                <li><a href="#tip">꿀팁</a></li>
-                <li><a href="#map">위치</a></li>
-                <li><a href="tel:010-6279-0862" class="call-now">📞 바로전화</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<main>
-    <!-- HERO -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>홍대 코노<br>찐가이드</h1>
-                <p style="font-size:1.3rem; color:#ccc; border-left:6px solid #00ff41; padding-left:16px; transform:skewX(-2deg);">
-                    bro가 직접 발로 뛰었다. <br>가격, 시설, 분위기 다 까발림.
-                </p>
-                <div class="flex-wrap mt-2">
-                    <a href="tel:010-6279-0862" class="btn">📞 전화걸기</a>
-                    <span style="color:#ffff00; font-weight:bold; border:3px solid #00ff41; padding:8px 16px; transform:rotate(1deg);">#홍대코노맛집</span>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <span class="emoji-big">🎤🎶</span>
-                <span class="caption">24시간 켜짐</span>
-                <div style="margin-top:12px; border-top:3px solid #00ff41; border-bottom:3px solid #ffff00; padding:8px 0;">
-                    <span style="font-size:2rem;">💰</span> 500원~ 
-                </div>
-            </div>
-        </div>
+  <main>
+    <!-- 히어로 섹션 -->
+    <section class="t-hero-lpm1">
+      <h1>홍대 코인노래방, 언제, 누구와, 왜?</h1>
+      <p>홍대는 문화와 밤이 뒤섞인 도심. 그 속에 숨은 코인노래방은 언제든지 돈만 넣고 바로 시작할 수 있는 자유 공간이다. 하지만 자유가 곧 혼란을 부른다. “몇 명이서 가야 할까?”, “어떤 시간대가 최적일까?” 같은 질문을 한 번이라도 해본 적이 있다면, 이 페이지는 당신을 위해 존재한다.</p>
+      <p>우리의 가이드는 복잡한 선택지를 단순한 체크리스트로 바꾼다. 30분, 1시간, 2시간 – 시간 구간마다 가장 효율적인 인원 수와 분위기를 제시한다. 또한, 주말 vs 평일, 파티 vs 연습 등 상황별로 반드시 확인해야 할 ‘스코어카드’를 제공한다. 이제 선택에 머뭇거릴 필요가 없다.</p>
     </section>
 
-    <!-- INTRO / ABOUT -->
-    <section style="padding:24px 0;">
-        <div class="container">
-            <div class="brutal-border" style="transform:skewX(1deg);">
-                <div class="brutal-border-inside">
-                    <p style="font-size:1.2rem; margin:0;">
-                        <span class="tip-badge">🔥 2025년 업데이트</span> 
-                        홍대입구역 3번출구 도보 3분.  <strong class="highlight">코인노래방</strong>만 12곳 돌아다님. 
-                        노래방 꿀팁, 숨은 명소, 가성비 짱인 곳만 모았다. 
-                        <a href="tel:010-6279-0862" style="font-weight:bold;">전화문의 환영</a> bro!
-                    </p>
-                </div>
-            </div>
-        </div>
+    <!-- 상황별 선택 카드 -->
+    <section class="r-top-k0mo">
+      <h2 class="t-top-s44s">시간대·인원·목적 별 체크포인트</h2>
+
+      <article class="card">
+        <h3 class="k-head-s2o5">주중 저녁 (18:00~22:00)</h3>
+        <p>주중 저녁은 주로 직장인들과 대학생이 몰리는 피크 타임이다. 조용히 연습하거나 소규모 모임을 원한다면 2~4인 방을 선택하고, 최소 30분 이상 예약하는 것이 비용 대비 효율을 높인다.</p>
+        <p>반면에 활기찬 파티를 원한다면 6인 이상 대형 방을 선점하고, 1시간 이상 이용해 인원당 비용을 낮추는 전략이 필요하다. 예약이 어렵다면 ‘당일 현장 조기 입장’ 옵션을 활용해 대기 시간을 최소화한다.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="k-head-s2o5">주말 밤 (20:00~02:00)</h3>
+        <p>주말 밤은 홍대의 메인 파티 타임. 대규모 그룹이 몰리기 때문에 사전 예약은 필수다. 8인 이상 대형 방을 미리 확보하고, 2시간 이상 이용하면 시간당 비용이 크게 절감된다.</p>
+        <p>하지만 고음역대 노래가 많은 경우 마이크와 사운드 시스템 점검을 반드시 체크하라. 사전 확인 리스트에 ‘마이크 테스트’와 ‘음량 조절 옵션’이 포함되어 있다면 불필요한 소음 분쟁을 피할 수 있다.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="k-head-s2o5">새벽 시간 (02:00~06:00)</h3>
+        <p>새벽은 가격이 가장 저렴한 시간대다. 이때는 1~2인 방을 선택해 개인 연습 혹은 소규모 듀엣을 즐기기에 최적이다. 다만, 조명과 청소 상태가 평소보다 떨어질 수 있으니 방 입장 직후 환경 점검을 권장한다.</p>
+        <p>새벽 이용자는 ‘무인출입’ 절차를 반드시 숙지해야 한다. QR코드 혹은 모바일 키를 사용해 24시간 자동 잠금 시스템을 우회하지 않도록 주의한다.</p>
+      </article>
     </section>
 
-    <!-- UGC REVIEWS -->
-    <section id="review">
-        <div class="container">
-            <h2>🎧 찐후기 · 리얼리뷰</h2>
-            <div class="grid-3">
-                <div class="review-card">
-                    <div class="review-meta">
-                        <span class="review-nick">🔥 불금이야</span>
-                        <span class="review-stars">★★★★★</span>
-                    </div>
-                    <p class="review-text">“여기 진짜 음향 개좋음. 브로랑 밤새 코노했어. 500원에 3곡? 미쳤다.”</p>
-                    <div style="margin-top:8px; font-size:0.8rem; color:#888;">2025-03-12</div>
-                </div>
-                <div class="review-card">
-                    <div class="review-meta">
-                        <span class="review-nick">🎤 혼코노 장인</span>
-                        <span class="review-stars">★★★★☆</span>
-                    </div>
-                    <p class="review-text">“홍대에서 제일 깔끔. 혼코노 하기 좋음. 사장님도 친절ㅎㅎ 별 하나 뺀 이유는 리모컨이 좀 오래됨.”</p>
-                    <div style="margin-top:8px; font-size:0.8rem; color:#888;">2025-02-28</div>
-                </div>
-                <div class="review-card">
-                    <div class="review-meta">
-                        <span class="review-nick">🐣 코린이</span>
-                        <span class="review-stars">★★★★★</span>
-                    </div>
-                    <p class="review-text">“처음 가봤는데 코인노래방 이렇게 재밌는 거였어? 친구들이랑 갔는데 시간 순삭. 무한리필 대박!”</p>
-                    <div style="margin-top:8px; font-size:0.8rem; color:#888;">2025-01-19</div>
-                </div>
-                <div class="review-card">
-                    <div class="review-meta">
-                        <span class="review-nick">🍻 홍대늑대</span>
-                        <span class="review-stars">★★★★☆</span>
-                    </div>
-                    <p class="review-text">“늦은 밤에도 노래방 문 열려있어서 좋음. 곡도 많고. 근데 에어컨이 약해 아쉽.”</p>
-                    <div style="margin-top:8px; font-size:0.8rem; color:#888;">2024-12-05</div>
-                </div>
-                <div class="review-card">
-                    <div class="review-meta">
-                        <span class="review-nick">🎙️ 브로맨스</span>
-                        <span class="review-stars">★★★★★</span>
-                    </div>
-                    <p class="review-text">“단체로 가면 더 재밌어! 방도 넉넉하고 가격도 착함. 다음에 또 올게요~”</p>
-                    <div style="margin-top:8px; font-size:0.8rem; color:#888;">2024-11-20</div>
-                </div>
-            </div>
-            <div class="text-center mt-2">
-                <a href="tel:010-6279-0862" class="btn" style="transform:rotate(1deg);">📞 전화로 물어보기</a>
-            </div>
-        </div>
+    <!-- 활용 팁 섹션 -->
+    <section class="t-hero-lpm1">
+      <h2 class="k-head-s2o5">현장 활용 팁 5가지</h2>
+      <p>1) **노래 선택 전략** – 최신 히트곡과 클래식 명곡을 조합해 분위기를 조절한다. 최신곡은 ‘플레이리스트 자동 충전’ 기능이 있다면 활용하고, 클래식은 사운드 레벨을 낮게 잡아 주변 소음과 차별화한다.</p>
+      <p>2) **음료·간식 구매 타이밍** – 코인노래방 내부에 자동판매기가 있다면, 입장 직후가 아닌 15분 뒤에 구매하면 매출 추적 시스템으로 인한 대기 시간을 줄일 수 있다.</p>
+      <p>3) **방 관리 규칙** – 방 사용 후 청소는 필수. 청소 키트를 제공하는 곳은 ‘청소 포인트’ 적립을 통해 다음 이용 시 할인을 받는다.</p>
+      <p>4) **소셜 공유** – 방 내부에 QR 코드가 있다면, 이용 후 바로 SNS에 공유해 ‘베스트 룸’ 인증을 받는다. 이는 다음 방문 시 우선 예약 혜택을 제공한다.</p>
+      <p>5) **예약 취소 정책** – 30분 이내 취소 시 전액 환불, 그 이후는 50% 차감이 기본이다. 단, ‘플래시 세일’ 기간에는 전액 환불 정책이 적용되므로 주시하라.</p>
     </section>
 
-    <!-- TIPS / INFO -->
-    <section id="tip" class="negative-margin">
-        <div class="container">
-            <h2 style="border-left-color:#ffff00; color:#ffff00;">💡 bro의 꿀팁 대방출</h2>
-            <div class="grid-2">
-                <div class="brutal-border" style="background:#1e1e1e;">
-                    <div style="border:3px solid #00ff41; padding:12px; background:#111;">
-                        <span class="tip-badge">⏰ 시간</span>
-                        <p><strong class="highlight">오전 11
+    <!-- FAQ 섹션 -->
+    <section class="r-top-k0mo">
+      <h2 class="t-top-s44s">자주 묻는 질문</h2>
 
+      <article class="card">
+        <h3 class="k-head-s2o5">코인노래방은 실제로 얼마나 저렴한가요?</h3>
+        <p>시간대에 따라 차이가 크다. 주중 저녁 30분 기준 2,000원, 주말 밤 2시간 기준 10,000원 정도가 평균이다. 새벽 시간에는 1시간에 3,000원 이하로 이용할 수 있다.</p>
+        <p>하지만 방 크기와 시설(마이크, 사운드 시스템) 등에 따라 가격이 변동될 수 있다. 사전 예약 페이지에서 정확한 가격을 확인하는 습관을 들이자.</p>
+      </article>
 
+      <article class="card">
+        <h3 class="k-head-s2o5">예약 없이 바로 들어갈 수 있나요?</h3>
+        <p>대다수 코인노래방은 ‘당일 현장 입장’ 옵션을 제공한다. 하지만 피크 타임에는 방이 없을 가능성이 높다. 특히 주말 밤에는 최소 30분 전 예약을 강력히 권한다.</p>
+        <p>현장 입장은 1인당 1시간 기준 3,000원 정도이며, 방이 없는 경우 근처 카페 등 대기 공간을 활용할 수 있다.</p>
+      </article>
 
+      <article class="card">
+        <h3 class="k-head-s2o5">특정 노래가 없는 경우 어떻게 해야 하나요?</h3>
+        <p>대부분의 시스템은 최신곡 DB를 자동 업데이트한다. 만약 원하는 곡이 리스트에 없으면, 방 내 터치패드에서 ‘곡 요청’ 버튼을 눌러 직원에게 직접 전달한다.</p>
+        <p>또는, 모바일 앱을 통해 사전 검색 후 QR코드로 직접 방에 전송하는 방법도 있다. 이 경우 추가 비용 없이 곡을 추가할 수 있다.</p>
+      </article>
+    </section>
+  </main>
 
-
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">홍대 코인노래방 가이드 현장에서 놓치기 쉬운 포인트를 기록해봤다</h4>
-        <h3>제목: 창작한 제목## 포스트 DNA afff2f38 #### 구조:- decision-tree — 조건별 분기와 선택 결과를 따라가는 구조- 근거 방식: 관찰 가능한 체크포인트와 확인 순서를 포함- 도입: 예상 밖의 숫자나 조건을 먼저 제시- 문장 리듬: 비교</h3>
-      </div>
-      <a href="posts/field_note-002-ba75nm.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-10">2026-06-10</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">홍대 코인노래방 가이드 솔직 후기 — 3개월 써본 사람의 리얼 리뷰</h4>
-        <h3>포스트 DNA f1dd3a5a #### 제목: 창작한 제목 | 현대 게임 분석자의 진실된 비너스 확장 수치 분석 아, 진짜... 보드게임 전문가들이 가장 주목해야 할 테라포밍 마스의 비너스 확장이 특정 2인 전략에서 게임 밸런스를 완전히 무너뜨리는 수치 분석을</h3>
-      </div>
-      <a href="posts/review-001-ba75nm.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-05">2026-06-05</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">형이 말하는 홍대 상권 생존기: 코노도 예외 없어, 진짜배기 돈 지옥은 따로 있다</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">야, 솔직히 말해서 홍대에서 뭐 좀 해보겠다고 뛰어드는 사람들 보면 다들 눈에 불을 켜고 있긴 하더라. 근데 내가 2023년에 월 매출 3천 가까이 찍고도 6개월 만에 간판 내린 사람으로서 하는 얘기인데, 보이는 게 다가 아니야. 홍대? 거긴 꿈도 돈도 같이 녹아내리는</p>
-      </div>
-      <a href="posts/review-001.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
+  <footer class="k-head-s2o5">
+    <p>&copy; 2026 홍대 코인노래방 가이드. 모든 권리 보유.</p>
+  </footer>
 </body>
 </html>
